@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 # React-приложение поиска книг с помощью Google Books API
 
 Документация Google Books API: https://developers.google.com/books/docs/v1/using.
@@ -11,7 +10,6 @@
 Должны быть текстовое поле и кнопка поиска. По введенной пользователем подстроке производится поиск книг. Триггером к поиску является либо нажатие Enter (когда текстовое поле в фокусе), либо нажатие кнопки поиска.
 
 Фильтрация по категориям. Ниже текстового поля располагается селект с категориями: all, art, biography, computers, history, medical, poetry. Если выбрано "all" (выбрано изначально), то поиск производится по всем категориям.
-
 
 Сортировка. Рядом с селектом категорий находится селект с вариантами сортировки: relevance (выбран изначально), newest.
 
@@ -31,44 +29,52 @@ React, React-Redux, Redux, CSS, HTML, JavaScript, Axios
 
 npm run start - комманда для запуска приложения
 
+
+
 ## `Версия для компьютера`
 
 
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/bbc28d68-f275-4ef8-af45-0df23ab01000)
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/0aa61923-9dfe-4113-a100-4db5f7958e3e)
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/03eeec32-e800-44bf-a8ae-182298c938a4)
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/d3b49b5d-6afc-47af-ae99-7fd978c946fe)
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/c25c3cca-e7eb-448c-9570-73cceeaa8d31)
+
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/016a0719-3b8c-4ace-8435-f59a1ead4946)
+
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/a6b55a68-987c-44b9-9dcb-390226f6f6ab)
+
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/b95061d6-4f25-4224-9a6d-346d5c17462e)
+
 
 
 ## `Версия для смартфона (вертикальная ориентация)`
 
 
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/f2a2cda7-13f6-438e-99db-a3e02baa4220)
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/b2f65b64-9ebe-49a1-83a2-0691c89b8fbc)
 
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/9d396aa8-f6e5-4d43-a464-8089919127c0)
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/a5fe844b-0ee5-4d19-9a15-863cb3417c16)
 
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/2d5f8ddc-1001-409e-b172-0cefd9c29dc3)
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/d6644ae8-41bc-4022-b200-ba5b6add177b)
 
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/68a2d4b7-0022-4fca-8413-ec6fe61e3c61)
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/d406ea97-5873-4cd4-b759-0ade7a0e3866)
 
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/e550d554-b21f-42f5-9608-385eb85650b6)
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/a9a05153-67fe-45c4-9263-60f4010277a9)
+
+
 
 
 
 ## `Версия для смартфона (горизонтальная ориентация)`
 
 
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/bab3726d-cf7b-4903-b773-27a3717f7fb5)
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/9b0851e4-20a9-4a99-b108-0a06d5cf8c95)
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/1fd7782e-6d0c-4c02-ae92-69f5649b58e7)
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/c70bf801-7077-4d7e-9db2-44d485a62429)
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/ed91fb6a-6f07-4344-8729-37ddabc630f2)
-![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/e837a298-7838-4de7-b79b-c08a0aa137b6)
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/c39f45dd-a20e-4af3-9d6b-c2441f0b82cb)
+
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/b257b8ef-518a-4236-bbf6-9d7cecef3a39)
+
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/9d048b04-6577-4732-9f20-608ba683828a)
+
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/81ab8369-b56b-4b5e-b687-748458e6d232)
+
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/d257e135-d955-4a93-be4d-eedb851085f5)
+
+![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/6c29bff0-ac68-448e-b484-cbfa5e59cc65)
 
 
 
-
-
-
-
->>>>>>> 526f1dafc389730ca5405b62c7eb39f373194729
