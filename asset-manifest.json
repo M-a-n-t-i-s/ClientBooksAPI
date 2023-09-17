@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ClientBooksAPI/static/css/main.9fabf01a.css",
+    "main.js": "/ClientBooksAPI/static/js/main.6a5c9454.js",
+    "static/js/787.1466254a.chunk.js": "/ClientBooksAPI/static/js/787.1466254a.chunk.js",
+    "static/media/book.jpg": "/ClientBooksAPI/static/media/book.90d4bea93969d7cb599c.jpg",
+    "static/media/1487.gif": "/ClientBooksAPI/static/media/1487.01ecb6b0ff9edbd3e8c9.gif",
+    "index.html": "/ClientBooksAPI/index.html",
+    "main.9fabf01a.css.map": "/ClientBooksAPI/static/css/main.9fabf01a.css.map",
+    "main.6a5c9454.js.map": "/ClientBooksAPI/static/js/main.6a5c9454.js.map",
+    "787.1466254a.chunk.js.map": "/ClientBooksAPI/static/js/787.1466254a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fabf01a.css",
+    "static/js/main.6a5c9454.js"
+  ]
+}
