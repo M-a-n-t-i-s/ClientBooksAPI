@@ -1,0 +1,57 @@
+.frame {
+    display: grid;
+    grid-template-areas:
+            ".  h  . "
+            "bs  bs  bs"
+            "f  f  f";
+
+   height: 80vh;
+    grid-template-rows: 5vh 1fr 5vh;
+}
+
+.header {
+    font-size: 2vh;
+    grid-area: h;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+.books {
+    grid-area: bs;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bookRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer {
+    grid-area: f;
+    border: none;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+@media screen and (max-width: 1000px)   {
+.frame{
+    display: flex;
+    flex-direction: column;
+}
+    .footer {
+        font-size: 4vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+}
+
+@media screen and (max-height: 600px)   {
+    .header {
+        font-size: 5vh;
+    }
+    .footer {
+        font-size: 3vw;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+}

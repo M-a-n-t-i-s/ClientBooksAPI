@@ -1,0 +1,98 @@
+.bookImg {
+    background-color: whitesmoke;
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bookImg img {
+    width: 20vw;
+    height: 25vw;
+    box-shadow: 1vw 1vw 15px grey;
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    padding: 3vw;
+}
+.info label {
+    padding-bottom: 1vw;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+}
+.category {
+    color: grey;
+    font-style: italic;
+
+}
+.mainTitle {
+    font-weight: 450;
+    font-size: 3.5vh;
+}
+.author {
+    color: darkgrey;
+    text-decoration: underline;
+}
+.subtitle {
+
+    border: lightgrey 1px solid;
+    height: 35vh;
+    width: 60vw;
+    overflow: auto;
+    padding: 1vw;
+    font-weight: 500;
+
+}
+button {
+    align-self: flex-end;
+    margin-top: 1vw;
+    border: none;
+    background-color: lightgrey;
+    font-weight: bold;
+    transform: scale(1.5);
+    margin-right: 1vw;
+}
+
+@media screen and (max-width: 1000px)   {
+    .form {
+        flex-direction: column;
+    }
+    .bookImg {
+        width: 100vw;
+        height: 70vh;
+    }
+    .bookImg img {
+        width: 80vw;
+        height: 50vh;
+
+    }
+    .subtitle {
+        margin-top: 1vh;
+        width: 90vw;
+        margin-bottom: 3vh;
+    }
+    button {
+        align-self: center;
+        margin-bottom: 3vh;
+        width: 30vw;
+        height: 5vh;
+    }
+}
+@media screen and (max-height: 600px)   {
+    .bookImg {
+        width: 100vw;
+        height: 110vh;
+    }
+    .bookImg img {
+        width: 40vw;
+        height: 90vh;
+
+    }
+
+}

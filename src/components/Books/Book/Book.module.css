@@ -1,0 +1,110 @@
+.book {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 20vw;
+    height: 30vw;
+    margin: 2vw 2vw;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: auto;
+
+}
+.book img {
+    height: 50%;
+    width: 60%;
+
+    margin-top: 6vh;
+    box-shadow: 1vw 1vw 15px grey;
+
+}
+
+
+.book:hover {
+    transform: scale(0.9);
+}
+
+.mainTitle {
+    font-weight: bold;
+    padding-left: 0;
+
+
+}
+
+.author {
+    color: grey;
+
+
+}
+.category {
+    color: grey;
+    text-decoration: underline;
+
+
+}
+
+.info {
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    padding: 2vh 2vw;
+
+}
+@media screen and (max-width: 1000px)   {
+    .book {
+        margin-bottom: 15vh;
+        width: 100vw;
+        height: 90vh;
+
+    }
+    .book img {
+        height: 50%;
+        width: 70%;
+        box-shadow: 1vw 1vw 15px grey;
+    }
+    .info {
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+    .mainTitle {
+        font-size: 3vh;
+    }
+
+    .author {
+        font-size: 2.5vh;
+
+    }
+    .category {
+        font-size: 2.5vh;
+    }
+
+}
+@media screen and (max-height: 600px)   {
+
+    .book {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        height: 85vh;
+        margin-top: 15vh;
+
+    }
+    .book img {
+        height: 30vw;
+        width: 25vw;
+        margin-left: 2vw;
+    }
+    .mainTitle {
+        font-size: 3vw;
+    }
+
+    .author {
+        font-size: 2.5vw;
+
+    }
+    .category {
+        font-size: 2.5vw;
+    }
+}

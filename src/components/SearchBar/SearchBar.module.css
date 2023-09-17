@@ -1,0 +1,111 @@
+
+.frame {
+
+    background-image: url("book.jpg");
+    background-size: 100vw 25vh ;
+    height: 15vw;
+    min-height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.frame div {
+    margin-top: 0;
+    padding-bottom: 1vh;
+
+}
+.frame div label{
+
+    padding-left: 2vw;
+}
+h1 {
+
+    margin-top: 0;
+    padding-top: 2vw;
+    color: white;
+    margin-bottom: 2vw;
+}
+.frame label {
+    color: white;
+    padding-right: 1vw;
+}
+.frame select {
+   width: 15vw;
+    height: 3vh;
+    color: grey;
+
+
+}
+.frame input {
+
+    width: 37vw;
+    height: 2.8vh;
+    margin-right: 0;
+    padding-right: 0;
+    border: none;
+    outline: none;
+
+}
+.imageButton {
+
+    height: 2vh;
+    border: none;
+    background-color: white;
+
+}
+.imageButton:hover {
+    background-color: lightgrey;
+}
+.search {
+   display: inline-block;
+
+}
+.findWindow {
+    position: relative;
+
+}
+@media screen and (max-width: 1000px)   {
+    .imageButton {
+        margin: 0;
+        padding: 0.4vh 0 1.8vh;
+        width: 7vw;
+        height: 2vh;
+    }
+    .frame input {
+        padding-top: 0.3vh;
+
+        margin: 0;
+    }
+    .frame{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-height: 600px)   {
+    .frame {
+        height:70vh
+    }
+    .frame input {
+        padding-top: 0;
+        margin-top: 0;
+        padding-bottom: 0.6vh;
+        margin-bottom: 4vh;
+        height: 10vh;
+
+    }
+    .imageButton {
+        padding-top: 1.5vh;
+        padding-bottom: 1.9vh;
+        width: 3vw;
+        margin-top: 0;
+        height: 7vh;
+    }
+    .frame select {
+        height: 10vh;
+        width: 20vw
+    }
+}
