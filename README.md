@@ -1,6 +1,8 @@
 
 # React-приложение поиска книг с помощью Google Books API
 
+Демонстрация приложения: https://m-a-n-t-i-s.github.io/ClientBooksAPI/
+
 Документация Google Books API: https://developers.google.com/books/docs/v1/using.
 
 Внимание! Обложки книг в большем разрешении не представлены Google Books API. В приложении используется максимально большие.
