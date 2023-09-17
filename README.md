@@ -6,21 +6,29 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `Версия для компьютера`
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/bbc28d68-f275-4ef8-af45-0df23ab01000)
+
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/0aa61923-9dfe-4113-a100-4db5f7958e3e)
+
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/03eeec32-e800-44bf-a8ae-182298c938a4)
+
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/d3b49b5d-6afc-47af-ae99-7fd978c946fe)
 
+### `Версия для смартфона (вертикальная ориентация)`
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/f2a2cda7-13f6-438e-99db-a3e02baa4220)
+
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/9d396aa8-f6e5-4d43-a464-8089919127c0)
+
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/2d5f8ddc-1001-409e-b172-0cefd9c29dc3)
+
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/68a2d4b7-0022-4fca-8413-ec6fe61e3c61)
+
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/e550d554-b21f-42f5-9608-385eb85650b6)
 
 
 
-
+### `Версия для смартфона (горизонтальная ориентация)`
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/bab3726d-cf7b-4903-b773-27a3717f7fb5)
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/9b0851e4-20a9-4a99-b108-0a06d5cf8c95)
 ![image](https://github.com/M-a-n-t-i-s/ClientBooksAPI/assets/106916069/1fd7782e-6d0c-4c02-ae92-69f5649b58e7)
